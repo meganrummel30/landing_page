@@ -1,0 +1,111 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: rgb(184, 209, 237)
+}
+.headings-combined {
+  padding-top: 30px;
+  animation: fadeIn;
+  animation-duration: 3s;
+}
+.heading1, .heading2, .heading3 {
+  text-align: center; 
+  height: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.3em; 
+  color: #FFF;
+  text-shadow: 2px 2px 2px #042F6E;
+}
+.heading2 {
+  font-size: 3.8em;
+  font-family: 'Roboto', sans-serif; 
+  text-shadow: 3px 3px 3px #042F6E;
+  letter-spacing: 2px
+}
+.image-left img{
+  width: auto; 
+  height: 360px; 
+  float: left;
+  margin-left: 130px;
+  animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.5s; /* don't forget to set a duration! */
+}
+.text-right{
+  font-size: 3.5em;
+  margin-top: 70px; 
+  margin-right: 100px;
+  text-align: center; 
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  text-shadow: 3px 3px 3px #042F6E;
+  letter-spacing: 2px;
+  animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.5s; /* don't forget to set a duration! */
+}
+.headings-combined2 img {
+  width: auto; 
+  height: 40px; 
+  margin-left: 10px; 
+  margin-right: 10px;
+  animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 15s; /* don't forget to set a duration! */
+}
+
+section#shop {
+  margin-top: 110px; 
+  padding-bottom: 20px;
+}
+.shopnow h3 {
+  text-align: center;
+  color: #FFF; 
+  font-size: 1.8em;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 3px 2px 2px #042F6E;
+  letter-spacing: 1px; 
+  animation: fadeIn;
+  animation-duration: 3s;
+}
+.shopnow a {
+  text-decoration: none;
+}
+.shop-button {
+  width: 200px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 2px;
+	background-color: #D6128A;
+	color: #FFF;
+	transition: all 0.3s linear;
+  animation: fadeInUpBig; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.shop-button:hover {
+	background-color: #fe59ae;
+	color: #FFF;
+	cursor: pointer;
+}
+.findstore {
+  font-family: 'Roboto', sans-serif;
+  text-align: center; 
+  letter-spacing: 2px; 
+  color: #042F6E;
+  margin-top: 15px; 
+  animation: fadeInUpBig;
+  animation-duration: 3s;
+}
+.findstore:hover {
+  color: #fe59ae; 
+  cursor: pointer; 
+}
